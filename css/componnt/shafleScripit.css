@@ -12,6 +12,7 @@ height: 248px;
 .buttons{
     text-align: center;
     margin: 50px 0;
+	margin-top: -44px;
 }
 
 .buttons button{

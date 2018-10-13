@@ -19,7 +19,7 @@
 	padding-left: 10px;
 }
 .our-tteam-inf{
- background-color: #000;
+ background-color: #7cb62f;
 	overflow: hidden;
 	color:#fff;
 }
@@ -96,10 +96,12 @@
     transition: all .5s ease;
 }
  .post-inf{
-   color: #999;
+   color: #fff;
    font-size: 16px;
    margin: 0 auto;
    width: 40%;
+	 font-weight: bold;
+	 font-family: sans-serif;
 }
 .p-ul-inf span
 {
