@@ -1,0 +1,87 @@
+  /***************************************************************************************************************
+||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Moti               ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles 
+* 3. header styles 
+* 6. footer styles 
+  * 14.contact-us styles 
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+/************************** 
+* 1. imported styles 
+***************************/
+
+
+@import url(componnt/statistics.css);
+@import url(componnt/header.css);
+@import url(componnt/shafleScripit.css);
+@import url(componnt/shooc-us.css);
+@import url(componnt/style-slider-bootstrip.css);
+@import url(componnt/owlcoursl-22.css);
+@import url(componnt/statistics.css);
+@import url(componnt/choole-medeskwy.css);
+@import url(componnt/exprets.css);
+@import url(componnt/sect-stap.css);
+@import url(componnt/4icon-servise.css);
+@import url(componnt/contact-us-form.css);
+@import url(componnt/footr.css);
+@import url(componnt/footer-All.css);
+@import url(componnt/whatapp.css);
+@import url(vendrs/bootstrap.min.css);
+@import url(vendrs/font-awesome.min.css);
+@import url(vendrs/animate.min.css);
+@import url(vendrs/magnific-popup.css);
+@import url(vendrs/owl.carousel.css);
+@import url(vendrs/owl.theme.default.min.css);
+ @import url(vendrs/plugins/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css);
+   
+ /************************** 
+* 2. miscelnious styles 
+***************************/
+body {
+  
+} 
+a:hover{
+text-decoration: none;
+}
+/*custm style*/
+.custm-head p{
+ color: #fff;
+}
+
+.owl-carousel .owl-item img{
+height: 300px;
+}
+.app-screenshot{
+    background: blue;
+    z-index: 999;
+    margin-top: -102px;
+    margin-bottom: -50px;
+    overflow: hidden;
+}
+ /*start section servis*/
+body{
+/*min-height: 4000px;*/
+   color: #000; 
+/*  height: 4000px;*/
+     background-color: #f7f7f7;
+  font-family: tahome;  
+	position:relative;
+}
+h1, h2, h3, h4, h5, h6, p , div{
+margin: 0;
+ padding: 0;
+} 
+.margin{	
+	margin: 100px 0 ;
+	overflow: hidden;
+}
+.padding{	
+	padding: 100px 0 ;
+}
+/**End glopl*/ 
+ 
