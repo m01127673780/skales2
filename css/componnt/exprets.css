@@ -3,7 +3,7 @@
 .exprets {
     color: red;
      background:url(../../img/stat-img/banner-2.jpg) no-repeat center center  fixed;
-    min-height: 400px; 
+    min-height: 320px; 
 	    color: #fff;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -25,10 +25,10 @@ color: #fff;
 .exprets .span-border{
 color: #fff;
 	background: red;
+	
 }
  .exprets .progress-content{
-margin-top: 20px;
-}
+    margin-top: 85px;}
 .exprets .progress{
 	width: 150px;
 	height: 150px;

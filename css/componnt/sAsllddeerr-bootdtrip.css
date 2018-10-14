@@ -19,7 +19,8 @@
 	padding-left: 10px;
 }
 .our-tteam-inf{
- background-color: #7cb62f;
+ background-color:#bd1c4b;
+/* background-color:#7cb62f;*/
 	overflow: hidden;
 	color:#fff;
 }
@@ -37,7 +38,7 @@
  }
 .our-tteam-inf:hover .bak-g-c-inf
 {
-    background:#ff2462;
+    background:#7cb62f;
     height: 100px;
 	margin-bottom:  10px;
     border-bottom-left-radius: 100px;
@@ -68,7 +69,7 @@
     height: 130px;
     text-align: center;
     margin-left: 26%;
-    background: #ff2462;
+    background:#7cb62f;
 	margin:0 auto;
  }
  .team-content-inf{  
@@ -88,7 +89,7 @@
 {
 	transition: 1s ease;
     position: absolute;
-    background:#ff2462;
+    background:#7cb62f;
     left: 0;
     bottom: 0;
     right: 0;

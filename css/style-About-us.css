@@ -95,6 +95,9 @@ hr{
 .g-recaptcha{
 	margin-left: 143px;
 }
+.overv-hidd{
+	overflow: hidden;
+}
 /* End only add this classto body*/
  
  /**End glopl*/ 
