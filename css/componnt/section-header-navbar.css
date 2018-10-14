@@ -38,7 +38,7 @@ body{
         font-size: 20px;
     font-weight: bold;
     padding: 28px 0px !important;
-	margin-bottom:220px
+	margin-bottom:120px
 
   /*color Tow:#7A1B1D;red ;*/
 
@@ -166,8 +166,9 @@ background-color:  #E3CE84;
     
 }
  .cd-headline .span-clip-title{    
-	font-size: 20px;
-     font-weight: 100; 
+	    font-size: 30px;
+    /* font-weight: 100; */
+    margin-top: 3.4px;
     
 }
 .bold{
@@ -176,3 +177,15 @@ background-color:  #E3CE84;
 font-weight: 700;
 	color: #fff;
 }
+ .div-text-clop{
+    width: 484px;
+    margin: 0 auto;
+	 margin-bottom: 60px;
+	 margin-top: 30px;
+}
+.welcome .buttons-effects {
+    /* margin-bottom: 33px; */
+    display: inline-block;
+    background: transparent;
+}
+
