@@ -92,9 +92,20 @@ hr{
 /*    padding-top: 80px ;	*/
 }
 /* start only add this classto body*/
+ 
+
 .g-recaptcha{
 	margin-left: 143px;
 }
+
+@media(max-width:768px){
+.g-recaptcha{
+	margin-left:0;
+	margin-bottom: 20px;
+
+}
+}
+
 .overv-hidd{
 	overflow: hidden;
 }
@@ -110,6 +121,12 @@ hr{
     color: #fff !important;
     border-color: #fff !important;
 }
+
+.fa-angle-up a{
+	z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 32px;}
 /* End only add this classto body*/
  
  /**End glopl*/ 

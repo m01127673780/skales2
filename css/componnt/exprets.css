@@ -15,9 +15,12 @@
 	-o-background-attachment: fixed;
 	-ms-background-attachment: fixed;
 	background-attachment: fixed;
-	
- }
- 
+/*	display: none;*/
+		
+  }
+ .show-section-stat{
+/*	display: block;*/
+}
 .exprets .h2-section-title{
 color: #fff;
 }
