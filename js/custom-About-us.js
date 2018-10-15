@@ -1,5 +1,11 @@
- "use strict"; // Start of use strict
+  "use strict"; // Start of use strict
 
+	
+//	console.log($(".statistics").offset().top)
+//	$(window).scroll(function(){
+//	var sc = $(this).scrollTop();
+//
+//	});
 
 /*=========================== =========*/
 	
@@ -39,33 +45,37 @@
  
 		$(window).off("scroll");
 		
+	}	
+		//  تغير  الbackground- للناف بار 
+		if(sc >100)
+	{
+		console.log("window Max top")
+			$("header") .addClass("sticky");
 	}
-	
-	
+		else
+		{
+		$("header") .removeClass("sticky");
+
+	    } 
+		
+		if(sc >2000)
+	  {
+		console.log("window Max top")
+			$(".exprets") .css({
+			display:"block"
+ 			});
+   	 }
+		else
+		{
+			$(".exprets") .removeClass("show-section-stat");
+
+	    } 
 	});
 	
 	
+ 
 	
-//-----------------End statestk--------------------------//	
-	   var $grid = $('.grid').isotope({
-      // options
-    });
-    // filter items on button click
-    $('.filtering').on( 'click', 'span', function() {
-
-        var filterValue = $(this).attr('data-filter');
-
-        $grid.isotope({ filter: filterValue });
-
-    });
-
-    $('.filtering').on( 'click', 'span', function() {
-
-        $(this).addClass('active').siblings().removeClass('active');
-
-    });
-	
-/*start shufil portofile */
+/*start shufil portofile */ //بديل لى plugin    shaflue .js
 $(".buttons button").click(function() {
 	
 	$(this).addClass("active-btn").siblings().removeClass("active-btn");
@@ -94,7 +104,7 @@ $(".buttons button").click(function() {
 
 
 
-/*start chooseo Us content */
+/*start chooseo Us content */           // همليه فلتره والىيشه ال DataRol ده هاتو fadeIn
  $(".c-panel li").click(function() {
   var p = $(this).data('role');
 	 $(".content > div").hide();
@@ -105,7 +115,7 @@ $(".buttons button").click(function() {
 	
 	
 	
-	/*start mag nfcal puoup  video*/
+	/*start mag nfcal puoup  video*/  // plugin VideoPou
 	$('.video').magnificPopup({
   type: 'iframe',
   iframe: {
@@ -590,18 +600,7 @@ function contactFormValidation() {
                 subject: {
                     required: true
                 }
-            },
-            submitHandler: function(form) {
-                // sending value with ajax request
-                $.post($(form).attr('action'), $(form).serialize(), function(response) {
-                    $(form).find('.form-result').append(response);
-                    $(form).find('input[type="text"]').val('');
-                    $(form).find('input[type="email"]').val('');
-                    $(form).find('textarea').val('');
-                    console.log(response);
-                });
-                return false;
-            }
+            }, 
         });
     }
 }
@@ -619,45 +618,8 @@ function thmVideoPopup() {
         });
     };
 }
-
-function scrollToTarget() {
-    if ($('.scroll-to-target').length) {
-        $(".scroll-to-target").on('click', function() {
-            var target = $(this).attr('data-target');
-            // animate
-            $('html, body').animate({
-                scrollTop: $(target).offset().top
-            }, 1000);
-
-        });
-    }
-}
-
-function mobileNavToggle () {
-    if ($('#main-nav-bar .navbar-nav .sub-menu').length) {
-        $('#main-nav-bar .navbar-nav .sub-menu').parent('li').children('a').append(function () {
-            return '<button class="sub-nav-toggler"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>';
-        });
-        $('#main-nav-bar .navbar-nav .sub-nav-toggler').on('click', function () {
-            var Self = $(this);
-            Self.parent().parent().children('.sub-menu').slideToggle();
-            return false;
-        });
-
-    };
-}
-
-function sideNavToggler () {
-    if ($('.side-navigation').length) {
-        $('.side-nav-opener').on('click', function () {
-            $('.side-navigation').addClass('open');
-        });
-        $('.side-navigation-close-btn').on('click', function () {
-            $('.side-navigation').removeClass('open');
-        });
-    };
-}
-
+ 
+  
 function countDownTimer () {
     if ($('.countdown-box').length) {
 
