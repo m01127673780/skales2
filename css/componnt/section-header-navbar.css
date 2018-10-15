@@ -353,12 +353,11 @@ display: block;
 	line-height: 2;
     font-size: 19px;
 	display: none;
-	text-align: right;
+ 	text-align: right;
     right: 190px;} 
 
 @media(max-width:992px){
 	.dorob-down {
-    background: #fff!important;
 
 	}
 }
@@ -369,7 +368,6 @@ display: block;
     margin-top: 2px;
      left: 43.5%;
 	margin-left: -7%;
-	
  } 
 }
 
@@ -417,9 +415,16 @@ display: block;
 /*-----------------dorowb dowen-------------------------------*/
  
 
-.item{
+.mega-menu .container .item{
  
      width: 243px; 
+ }
+
+.mega-menu .container .item{
+ 
+     width: 243px; 
+	background: red;
+	color: #fff;
 }
 
 .mega-menu  .container .item ul   {
@@ -471,13 +476,24 @@ text-align: right;
 
 }
 /*--------------------------------------------------------*/
-.nav-item.dorob-down.nav-item.drob{
-	background: red
-} 
+ .dropdown-item
 
 @media(max-width:992px){
-	.dropdown-item{
-	    	color: #000!important;
-	    background: #fff !important;
-	}
+	.spau-top-uparbar{
+	    font-size: 11px;
+
+	}}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    /* background: red; */
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    /* float: left; */
+    left: 1px;
+    position: absolute;
+    color: #fff;
+    top: 3px;
 }

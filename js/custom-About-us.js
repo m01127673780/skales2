@@ -1,4 +1,4 @@
- "use strict"; // Start of use strict
+  "use strict"; // Start of use strict
 
 	
 //	console.log($(".statistics").offset().top)

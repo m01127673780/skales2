@@ -180,13 +180,19 @@ p{
     max-width: 100%;
     height: 375px;
     margin-bottom: 30px;
-	height: auto;
+/*	height: auto;*/
 	
  }
 
 
  
+@media(max-width:992px){
 
+.contebt-Anout h4  {
+      font-weight: 800;
+     font-size: 18px;
+}
+}
 .contebt-Anout h4  {
          margin-top: 10px;
     margin-bottom: 15px;
@@ -203,14 +209,20 @@ p{
     font-family: 'Open sans', sans-serif;
  }
 
+@media(max-width:992px){
 
+ .contebt-Anout p.hidin-p {
+     
+ display: none
+ } 
+}
  .btn{
  
       display: inline-block;
     text-decoration: none;
     padding: 10px 25px;
     background-color: #ff2462;
-    color: #fff;
+/*    color: #fff;*/
     border: none;
     border-radius: 4px;
     position: relative;
@@ -323,9 +335,7 @@ color: #fff;
 	    background-color: rgba(0,0,0,0.45);
 
 }
-{
-	
-}
+ 
  
 /*================End features-img ====================*/
 
