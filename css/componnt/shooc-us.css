@@ -44,6 +44,12 @@ display: none;
      height: 46px;
 	 margin-bottom: 50px;
  }
+@media(max-width:768px){
+	.c-panel .hiddin-p-li{
+		
+		display: none;
+	}
+}
 /**------------------*/
  /*start choose Us*/
 
